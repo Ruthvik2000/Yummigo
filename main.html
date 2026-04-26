@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./food_app/index.css" />
+    <title>React</title>
+</head>
+<body>
+<div id="root">
+    <h1>Ruthvik React</h1> // This thing will be replaced by root.render(heading) in App.js. So, whatever we render inside the root id this will be replaced 
+</div>
+
+<!--
+//The below CDN Links are not required as we installed react from npm the packages will be present in node_modules ,we have to import the React from "react" in the js file for execution.
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+-->
+
+<script>
+//const heading = React.createElement("h1",null,"Hello React world");
+/*the 14 line will be created using 10th line source links it means
+creating a element will be done by using this library(src loc in the 10th line) 
+*/
+//const root =  ReactDOM.createRoot(document.getElementById("root"));
+/*the 18 line will be created using 11th line source links it means
+creating a root and rendering something inside it is the job of DOm so
+it used ReactDOM.createRoot() function from the libraray to craete root
+*/
+//root.render(heading);
+</script>
+
+<script type="module" src="./food_app/App.js"></script>
+
+<!--Instead of writing react and html in the same page,we will write 13,17,22 lines or react code in app.js  
+and execute it it gives the same result"
+-->
+</body>
+</html>
